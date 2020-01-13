@@ -44,7 +44,7 @@ namespace WinFormExample
 
         private void LanguageSelection_Click(object sender, EventArgs e)
         {
-            var selectedLanguageItem = (MenuItem) sender;
+            var selectedLanguageItem = (ToolStripMenuItem) sender;
             var text = selectedLanguageItem.Text;
 
             System.Threading.Thread.CurrentThread.CurrentUICulture = GetUICulture(text);

@@ -60,12 +60,11 @@
             // 
             // languageItem
             // 
-            this.languageItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.languageItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.languageItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishItem,
             this.frenchItem,
             this.germanItem});
-            this.languageItem.Image = global::WinFormExample.Properties.Resources.languageIcon;
             resources.ApplyResources(this.languageItem, "languageItem");
             this.languageItem.Name = "languageItem";
             // 

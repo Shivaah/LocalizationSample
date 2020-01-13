@@ -113,7 +113,4 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <None Include="Resources\languageIcon.png" />
-  </ItemGroup>
 </Project>
