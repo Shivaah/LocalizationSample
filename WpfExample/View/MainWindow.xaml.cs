@@ -22,19 +22,19 @@ namespace WpfExample
 
             if (string.IsNullOrEmpty(name))
             {
-                DisplayErrorMessage("Name");
+                DisplayErrorMessage(GlobalResources.GenderText);
                 return;
             }
 
             if (string.IsNullOrEmpty(city))
             {
-                DisplayErrorMessage("City");
+                DisplayErrorMessage(GlobalResources.CityText);
                 return;
             }
 
             if (string.IsNullOrEmpty(gender))
             {
-                DisplayErrorMessage("Gender");
+                DisplayErrorMessage(GlobalResources.GenderText);
                 return;
             }
 

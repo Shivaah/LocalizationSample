@@ -20,19 +20,19 @@ namespace WinFormExample
 
             if (string.IsNullOrEmpty(name))
             {
-                DisplayErrorMessage("Name");
+                DisplayErrorMessage(GlobalResources.NameText);
                 return;
             }
 
             if (string.IsNullOrEmpty(city))
             {
-                DisplayErrorMessage("City");
+                DisplayErrorMessage(GlobalResources.CityText);
                 return;
             }
 
             if (string.IsNullOrEmpty(gender))
             {
-                DisplayErrorMessage("Gender");
+                DisplayErrorMessage(GlobalResources.GenderText);
                 return;
             }
 
@@ -50,7 +50,7 @@ namespace WinFormExample
         private void UpdateUsersTree(string name, string city, string gender)
         {
             var userNode = new TreeNode(name);
-            var subNodes = new[] {new TreeNode($"City : {city}"), new TreeNode($"Gender : {gender}")};
+            var subNodes = new[] {new TreeNode($"{GlobalResources.CityText} : {city}"), new TreeNode($"{GlobalResources.GenderText} : {gender}")};
 
             userNode.Nodes.AddRange(subNodes);
             usersTree.Nodes.Add(userNode);
@@ -68,7 +68,6 @@ namespace WinFormExample
                 return CultureInfo.GetCultureInfo("de");
 
             return CultureInfo.CurrentUICulture;
-            ;
         }
 
         private void DisplayErrorMessage(string argumentField)
