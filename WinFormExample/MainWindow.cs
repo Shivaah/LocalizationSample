@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
+﻿using Resources;
+using System;
 using System.Globalization;
 using System.Windows.Forms;
-
-using Resources;
 
 namespace WinFormExample
 {

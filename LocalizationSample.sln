@@ -14,13 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Resources.Designer.t4 = Resources.Designer.t4
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{86B63E65-F8EB-4D9C-9C15-5D7A04867C96}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{EE264D81-0C01-49CA-8514-EBA7C82F0DFB}"
-	ProjectSection(SolutionItems) = preProject
-		WinFormExample\Resources\languageIcon.png = WinFormExample\Resources\languageIcon.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,9 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EE264D81-0C01-49CA-8514-EBA7C82F0DFB} = {86B63E65-F8EB-4D9C-9C15-5D7A04867C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E049215-BAF8-4323-953E-D2F4B1EEDB73}
